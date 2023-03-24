@@ -16,4 +16,4 @@ app.use("/api/questions", questionRouter);
 app.use("/api/answer", answerRouter);
 
 
-app.listen(port, () => console.log(`Listening at http://localhost:${port}`));
+app.listen(port || 4000, () => console.log(`Listening at http://localhost:${port}`));
